@@ -1,2 +1,16 @@
-layout: default
-title: ""  # 'note' 대신 표시하고 싶은 이름
+title: "개발 문서"
+description: "프로젝트 기술 문서 모음"
+baseurl: "/note"  # GitHub 저장소 이름
+url: "https://jyshinAnt.github.io"  # GitHub Pages URL
+
+# Jekyll 설정
+markdown: kramdown
+theme: minima  # 또는 원하는 테마
+
+# 포함/제외 설정
+include:
+  - docs
+exclude:
+  - README.md
+  - .git
+  - .github
