@@ -1,11 +1,34 @@
 title: "개발 문서"
 description: "프로젝트 기술 문서 모음"
-baseurl: "/note"  # GitHub 저장소 이름
-url: "https://jyshinAnt.github.io"  # GitHub Pages URL
+baseurl: "/note"
+url: "https://jyshinAnt.github.io"
 
-# Jekyll 설정
+# 문서 전용 테마 (GitHub Pages에서 지원)
+remote_theme: just-the-docs/just-the-docs
+
+# Markdown 설정
 markdown: kramdown
-theme: minima  # 또는 원하는 테마
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# 문서 구조
+aux_links:
+  "GitHub Repository": "https://github.com/jyshinAnt/note"
+
+# 검색 활성화
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+
+# 목차 자동 생성
+heading_anchors: true
 
 # 포함/제외 설정
 include:
@@ -14,3 +37,5 @@ exclude:
   - README.md
   - .git
   - .github
+  - Gemfile
+  - Gemfile.lock
