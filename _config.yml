@@ -3,27 +3,13 @@ description: "프로젝트 기술 문서 모음"
 baseurl: "/note"
 url: "https://jyshinAnt.github.io"
 
-# 문서 전용 테마 (GitHub Pages에서 지원)
-remote_theme: just-the-docs/just-the-docs
+# 단순한 문서 테마
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
 
-# 색상 테마
-color_scheme: light
-
-# 문서 구조
-aux_links:
-  "GitHub Repository": "https://github.com/jyshinAnt/note"
-
-# 검색 활성화
-search_enabled: false
-
-# 목차 자동 생성
-heading_anchors: false
-
-# 상단 브레드크럼 네비게이션 비활성화
-breadcrumb_nav_enabled: false
-
-# 하단 네비게이션 (이전/다음 페이지)
-nav_footer_enabled: true
+# Markdown 설정
+markdown: kramdown
 
 # 포함/제외 설정
 include:

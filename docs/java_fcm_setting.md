@@ -1,22 +1,9 @@
 ---
 layout: default
 title: Java Spring FCM 셋팅
-nav_order: 2
-parent: 개발 가이드
 ---
 
 # Java Spring + Gradle 기반 FCM 연동 서버 셋업 매뉴얼
-{: .no_toc }
-
-## 목차
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
-## 🚀 개요
 
 본 문서는 발급된 **Firebase Service Account Key**를 사용하여 Java Spring Boot 애플리케이션에 FCM(Firebase Cloud Messaging) 메시지 전송 기능을 설정하는 방법을 안내합니다.
 
