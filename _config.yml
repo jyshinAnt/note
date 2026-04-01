@@ -14,10 +14,10 @@ aux_links:
   "GitHub Repository": "https://github.com/jyshinAnt/note"
 
 # 검색 활성화
-search_enabled: true
+search_enabled: false
 
 # 목차 자동 생성
-heading_anchors: true
+heading_anchors: false
 
 # 상단 브레드크럼 네비게이션 비활성화
 breadcrumb_nav_enabled: false
