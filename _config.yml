@@ -6,14 +6,8 @@ url: "https://jyshinAnt.github.io"
 # 문서 전용 테마 (GitHub Pages에서 지원)
 remote_theme: just-the-docs/just-the-docs
 
-# Markdown 설정
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+# 색상 테마
+color_scheme: light
 
 # 문서 구조
 aux_links:
@@ -21,17 +15,15 @@ aux_links:
 
 # 검색 활성화
 search_enabled: true
-search:
-  heading_level: 2
-  previews: 3
-  preview_words_before: 5
-  preview_words_after: 10
 
 # 목차 자동 생성
 heading_anchors: true
 
 # 상단 브레드크럼 네비게이션 비활성화
 breadcrumb_nav_enabled: false
+
+# 하단 네비게이션 (이전/다음 페이지)
+nav_footer_enabled: true
 
 # 포함/제외 설정
 include:
